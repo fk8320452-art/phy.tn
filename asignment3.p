@@ -1,10 +1,26 @@
-#conditional statement
-#the tempreature is -5 cold abow 5 cool abow 15 pleasent abow 30 hot abow 40 very hot
+#if statement
+a = 33
+b = 100
+if b > a:
+    print("b is greater than a")
 
-temperature = 45
-if temperature > 40:
-    print("today teamperature is hot")
-elif temperature > 25:
-    print("wheather is normal")
-else:
-    print("wheather is cool")
+
+
+    #write a programe check if a number is positive
+    num = 15
+    if num > 0: 
+        print("the number is positive")
+
+
+age = 20
+if age >= 18:
+    print("you are an adult")
+    print("you can vote")
+    print("you have full legal rights")
+
+
+    #while loop
+    i = 1
+    while i < 6:
+        print(i)
+        i += 1
